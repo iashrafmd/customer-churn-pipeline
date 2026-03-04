@@ -1,0 +1,6 @@
+boto3==1.33.13
+botocore==1.33.13
+pandas==2.2.2
+psycopg2-binary==2.9.11
+faker==37.4.2
+sqlalchemy==2.0.34

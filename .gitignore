@@ -1,0 +1,44 @@
+# Environment Variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Airflow
+logs/
+airflow.db
+airflow-webserver.pid
+
+# Data files
+data/raw/*.csv
+data/processed/*.csv
+data/analytics/*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
